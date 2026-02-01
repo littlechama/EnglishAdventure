@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq; // Findを使うために必要
 
-public static class ScoreManager
+public class ScoreManager : MonoBehaviour
 {
     // ★システム全体の設定データ（全プレイヤー分）
     private static GameSaveData masterData;
